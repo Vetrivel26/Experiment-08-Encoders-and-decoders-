@@ -80,11 +80,32 @@ endmodule
 ### TRUTH TABLE 
 ![tt1](https://user-images.githubusercontent.com/95363138/171548094-293e7927-1039-4b92-bddc-7985eb7c4807.png)
 ### program :
+~~~
+Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
+Developed by: EASWAR.J
+RegisterNumber:  212221230024
 
+
+module enc(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
+input a,b,c;
+output d0,d1,d2,d3,d4,d5,d6,d7;
+assign d0 = (~a&~b&~c);
+assign d1 = (~a&~b&c);
+assign d2 = (~a&b&~c);
+assign d3 = (~a&b&c);
+assign d4 = (a&~b&~c);
+assign d5 = (a&~b&c);
+assign d6 = (a&b&~c);
+assign d7 = (a&b&c);
+
+endmodule
+~~~
 ### RTL LOGIC :
+![rtl 2](https://user-images.githubusercontent.com/95363138/171548699-54b21cbf-c177-474e-a03f-cad7510a3d49.png)
 
 ### TIMING DIAGRAMS :
-
+![t 2](https://user-images.githubusercontent.com/95363138/171548710-266db849-1e62-44b7-862b-d95911bad70e.png)
 ### TRUTH TABLE :
-
-### RESULTS 
+![tt 2](https://user-images.githubusercontent.com/95363138/171548812-54532db1-7ba4-447b-963e-5716b26dbcf5.png)
+### RESULTS :
+Thus the program to desing encoder and decoder is done.
