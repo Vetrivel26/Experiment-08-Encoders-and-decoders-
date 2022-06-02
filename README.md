@@ -73,26 +73,18 @@ or(b,d2,d3,d6,d7);
 or(c,d1,d3,d5,d7);
 endmodule
 ~~~
-### RTL LOGIC  
-
-
-
-
-
-
-
-
+### RTL LOGIC  :
+![rtl1](https://user-images.githubusercontent.com/95363138/171548021-7c0b0c93-6536-41fb-ba40-b7929eb5c42a.png)
 ### TIMING DIGRAMS  
-
-
-
-
-
+![t1](https://user-images.githubusercontent.com/95363138/171548071-0291a4b6-ca7f-410d-a622-4d6e9e3e50e0.jpeg)
 ### TRUTH TABLE 
+![tt1](https://user-images.githubusercontent.com/95363138/171548094-293e7927-1039-4b92-bddc-7985eb7c4807.png)
+### program :
 
+### RTL LOGIC :
 
+### TIMING DIAGRAMS :
 
-
-
+### TRUTH TABLE :
 
 ### RESULTS 
