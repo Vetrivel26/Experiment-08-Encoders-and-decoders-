@@ -82,8 +82,8 @@ endmodule
 ### program :
 ~~~
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: EASWAR.J
-RegisterNumber:  212221230024
+Developed by: VETRIVEL.S
+RegisterNumber:  212221240060
 
 
 module enc(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
