@@ -59,7 +59,8 @@ D7 = X Y Z
 
 
 
-### PROGRAM 
+### PROGRAM :
+~~~
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
 Developed by: VETRIVEL.S
 RegisterNumber:  212221240060
@@ -71,7 +72,7 @@ or(a,d4,d5,d6,d7);
 or(b,d2,d3,d6,d7);
 or(c,d1,d3,d5,d7);
 endmodule
-
+~~~
 ### RTL LOGIC  
 
 
